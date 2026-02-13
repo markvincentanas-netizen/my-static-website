@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Lab 1</title>
+
+    <!-- CSS Styling -->
+<style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: radial-gradient(circle at top, #1b2b4f, #050b1e);
+            margin: 0;
+            padding: 40px;
+            color: #e0e6f0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: rgba(15, 23, 42, 0.95);
+            border-radius: 18px;
+            padding: 35px 45px;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.7);
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(25px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            text-align: center;
+            color: #c7d2fe;
+            font-size: 32px;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        p {
+            text-align: center;
+            color: #9aa5ce;
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            margin-top: 35px;
+            color: #93c5fd;
+            border-left: 6px solid #60a5fa;
+            padding-left: 12px;
+        }
+
+        ul, ol {
+            margin-left: 45px;
+            color: #dbeafe;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 12px 22px;
+            background: linear-gradient(135deg, #2563eb, #1e40af);
+            color: #f8fafc;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(96, 165, 250, 0.6);
+        }
+
+        img {
+            margin-top: 18px;
+            width: 160px;
+            border-radius: 14px;
+            box-shadow: 0 15px 30px rgba(59, 130, 246, 0.5);
+        }
+
+        table {
+            width: 100%;
+            margin-top: 25px;
+            border-collapse: collapse;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+        }
+
+        th {
+            background: linear-gradient(135deg, #1e40af, #2563eb);
+            color: #e0f2fe;
+            padding: 14px;
+            letter-spacing: 0.5px;
+        }
+
+        td {
+            padding: 14px;
+            text-align: center;
+            background-color: #0f172a;
+            color: #c7d2fe;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #020617;
+        }
+
+        tr:hover td {
+            background-color: #1e293b;
+        }
+    </style>
+
+
+    <!-- JavaScript Alert (Laboratory Task 4) -->
+    <script>
+        window.onload = function () {
+            alert("Hello World");
+        };
+    </script>
+</head>
+<body>
+
+    <!-- This is an HTML comment (Laboratory Task 1) -->
+
+    <h1>Welcome to My HTML5 Lab</h1>
+    <p>This webpage is my Laboratory Activity No 1: Introduction to HTML5 Basics.</p>
+
+    <!-- Laboratory Task 2: Lists -->
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Cellphone</li>
+        <li>Laptop</li>
+        <li>Personal Computer</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol>
+        <li>Toyo</li>
+        <li>Suka</li>
+        <li>Mantika</li>
+    </ol>
+
+    <!-- Laboratory Task 2: Link -->
+    <h2>External Link</h2>
+    <a href="https://www.youtube.com" target="_blank">
+       Visit link
+    </a>
+
+    <!-- Laboratory Task 2: Image -->
+    <h2>Image</h2>
+    <img src="https://scontent.fmnl4-1.fna.fbcdn.net/v/t39.30808-6/623071069_1388787906595545_7095657746170496169_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFq4r9J1ic8Iw8cCFSrFKPA6BHTMRbKaGLoEdMxFspoYuGlM1iHQTf73AmHJfEzryVTmRt-ZO0rD9OTUL4zNddl&_nc_ohc=HkoFsnigDocQ7kNvwHBpkCB&_nc_oc=AdmE0v7RRtug6G3C3YTDkTusShAl-PFLtRtnXbeeGwzor8jbnvuxiGTNXgfvj3ExieI&_nc_zt=23&_nc_ht=scontent.fmnl4-1.fna&_nc_gid=QywFrUKpjSmla5JWkuNH8w&oh=00_Afq4IOlKbhpzfOEoo24deaFBiZncTnkN475aPAS7p1uOxQ&oe=6981D306" alt="Image">
+    <img src="https://scontent.fceb10-1.fna.fbcdn.net/v/t39.30808-6/621648872_915368517534220_7294349995908143552_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=1&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGYu3P4oiVkK2jcNGBElVpOl78T383c802XvxPfzdzzTUPMEc9_b7H9NYGPmSjtsZrgzfsaY81Pkj58FBJwiOwY&_nc_ohc=P0xgnaT5ea8Q7kNvwF6a6XI&_nc_oc=AdkKSJ4KpZzE3IbeJpMDS-tEfEjPS1nTlPp2n0O_MncEcye8JL21U1BoeaUULrYqeFg&_nc_zt=23&_nc_ht=scontent.fceb10-1.fna&_nc_gid=MFyklcmvix6RN4kQkNOrGQ&oh=00_AfqFTuDe2b4JaixNigtevp8cZx16Qvrn_TEsk9PhupDHBw&oe=6981EAD9" alt="Image">
+
+
+     <!-- Laboratory Task 3: Table -->
+    <h2>Student Information</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Year Level</th>
+        </tr>
+        <tr>
+            <td>Linuel Leogan</td>
+            <td>BS Information Technology</td>
+            <td>3rd Year</td>
+        </tr>
+        <tr>
+            <td>Samjang Hook</td>
+            <td>BS Agri Business</td>
+            <td>1st Year</td>
+        </tr>
+    </table>
+</body>
+</html>
